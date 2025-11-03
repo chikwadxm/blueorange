@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>BlueOrange.com</title>
+  </head>
+  <body>
+    <section
+      class="bg-gray-100 borderline h-20 shadow-md w-full font-sans rounded-l"
+    >
+      <header class="flex justify-between items-center">
+        <p class="text-blue-700 semi-bold text-2xl">
+          Blue<span class="text-orange-400 semi-bold text-2xl">Orange</span>
+        </p>
+        <div class="flex max-sm:hidden  text-gray-500 gap-2">
+           <i class="md:hidden fa-solid fa-bars"></i>
+          <p>Home</p>
+          <a href="#rooms" class="hover:underline">Rooms</a>
+          <p>About</p>
+          <p>Contact</p>
+         
+        </div>
+      </header>
+    </section>
+    <section
+      class="bg-cover bg-center h-screen flex items-center"
+      style="background-image: url('/src/hotel.JPG')"
+    >
+      <div class="absolute inset-0"></div>
+      <div class="relative z-10 text-orange-400 text-center px-6">
+        <h2 class="text-5xl font-bold leading-tight mb-4 border-orange-400">
+          Experience Luxury & Comfort
+        </h2>
+        <p class="text-orange-400 text-xl mb-6 semi-bold">
+          Your dream<br />
+          stay awaits at BlueOrange
+        </p>
+        <a
+          class="hover:bg-orange-400 hover:underline text-white px-8 py-3 rounded-md text-lg font-semibold"
+          >Book Now</a
+        >
+      </div>
+    </section>
+    <section class="container mx-auto py-16 px-6">
+      <h2 class="text-4xl font-bold text-center text-blue-400 mb-10">
+        Room and Suites
+      </h2>
+      <div  id ="rooms"class="grid grid-cols-3 gap-8 max-sm:block">
+        <div class="bg-white shadow-md rounded-lg overflow-hidden">
+          <img src="src/one.JPG" class="w-full h-48 object-cover" />
+          <div class="p-5">
+            <h3 class="text-xl font-bold mb-2">Deluxe Suite</h3>
+            <p class="text-gray-600 mb-2">King Bed . Ocean view . Free Wi-Fi</p>
+            <p class="text-orange-400 font-bold mb-4">$250 / night</p>
+            <button
+              class="bg-blue-200 semi-bold hover:bg-blue-900 w-full py-2 text-white rounded-md"
+            >
+              View Details
+            </button>
+          </div>
+        </div>
+
+        <div class="bg-white shadow-md rounded-lg overflow-hidden">
+          <img src="src/two.JPG" class="w-full h-48 object-cover" />
+          <div class="p-5">
+            <h3 class="text-xl font-bold mb-2">Executive Suite</h3>
+            <p class="text-gray-600 mb-2">
+              King Bed . Balcony . Breakfast
+            </p>
+            <p class="text-orange-400 font-bold mb-4">$300 / night</p>
+            <button
+              class="bg-blue-200 semi-bold hover:bg-blue-900 w-full py-2 text-white rounded-md"
+            >
+              View Details
+            </button>
+          </div>
+        </div>
+
+
+<div class="bg-white shadow-md rounded-lg overflow-hidden">
+          <img src="src/suite.JPG" class="w-full h-48 object-cover" />
+          <div class="p-5">
+            <h3 class="text-xl font-bold mb-2">Honeymoon Suite</h3>
+            <p class="text-gray-600 mb-2">
+              Jacuzzi . Sea view . Private lounge
+            </p>
+            <p class="text-orange-400 font-bold mb-4">$350 / night</p>
+            <button
+              class="bg-blue-200 semi-bold hover:bg-blue-900 w-full py-2 text-white rounded-md"
+            >
+              View Details
+            </button>
+          </div>
+        </div>
+
+        
+      </div>
+    </section>
+    <footer class="bg-blue-700 text-white text-center py-6">
+<p>&copy; 2025 BlueOrange Hotel. All rights Reserved.</p>
+    </footer>
+  </body>
+</html>
